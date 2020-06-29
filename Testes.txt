@@ -1,0 +1,5 @@
+Para realizar os teste foi utilizado o postman a fim de realizar as requisições á api.
+As rotas:
+listBooks: Type get: http://localhost:52880/api/Books
+searchBooks: Type Post: http://localhost:52880/api/Books/searchBooks?search=Fantastic Beasts and Where to Find Them: The Original Screenplay
+freight: Type Post http://localhost:52880/api/Books/freight?valueBook=10,7
